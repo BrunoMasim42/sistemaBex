@@ -947,6 +947,10 @@ table tbody tr {
     .notify-icon span{
         margin-left: -520px; 
     }
+
+    .records{
+        margin-top: 500px;
+    }
 }
 
 
