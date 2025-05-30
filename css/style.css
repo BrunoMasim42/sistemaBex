@@ -906,11 +906,11 @@ table tbody tr {
     }
     
     #menu-toggle:checked ~ .sidebar {
-        left: 0;
+        left: 20px;
     }
     
     #menu-toggle:checked ~ .sidebar {
-        width: 165px;
+        width: 220px;
     }
 
     #menu-toggle:checked ~ .sidebar .side-header span {
