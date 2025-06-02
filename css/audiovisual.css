@@ -452,8 +452,8 @@ main {
     background-color: #050505;
 }
 
-.analytics .card h1{
-    font-size: 18px;
+.analytics .card-principal h1{
+    font-size: 12px;
     color: #f5f5f5;
     margin-left: 15px;
 }
@@ -465,10 +465,10 @@ main {
     font-weight: 600;
 }
 
-.analytics .card-head h2 {
+.analytics .card-head, .card-progress h2 {
     color: #333;
-    font-size: 1.8rem;
-    font-weight: 500;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 .analytics .card-head span{
