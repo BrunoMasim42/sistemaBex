@@ -157,6 +157,15 @@
     font-size: 1.7rem;
 }
 
+.dropdown i{
+    color: #b6b3b3;
+}
+
+.dropdown i:hover{
+    color: #050505;
+}
+
+
 .dropdown-menu{
     background-color: var(--color-dark);
     position: absolute;
@@ -164,10 +173,15 @@
     gap: 10px;
     margin-left: 120px;
     margin-top: -60px;
+    
 }
+
+.dropdown-menu a{
+    color: #b6b3b3;
+}
+
 .dropdown a{
     text-decoration: none;
-    color: #1d1d1dad;
     font-weight: 600; 
 }
 
@@ -197,10 +211,6 @@
     margin-left: 140px;
    
 }
-
-
-
-
 
 
 #menu-toggle:checked ~ .sidebar {
@@ -303,6 +313,7 @@ header {
     justify-content: flex-end;
     padding-top: .5rem;
 }
+
 
 .header-menu label,
 .header-menu .notify-icon {

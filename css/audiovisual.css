@@ -167,7 +167,7 @@
 }
 .dropdown a{
     text-decoration: none;
-    color: #1d1d1dad;
+    color: #b6b3b3;
     font-weight: 600; 
 }
 
@@ -401,6 +401,8 @@ header {
     font-size: .8rem;
 }
 
+
+
 main {
     margin-top: 60px;
     margin-left: 40px;
@@ -435,7 +437,7 @@ main {
 
 .analytics .card-principal {
     box-shadow: 0px 5px 5px -5px rgba(0, 0, 0, 0.1);
-    background: rgba(188, 241, 37, 1);
+    background: #b6b3b3;
     padding: 1rem;
     border-radius: 3px;
     border: #565454 1px solid;
@@ -469,6 +471,7 @@ main {
     color: #333;
     font-size: 14px;
     font-weight: 600;
+    margin-top: 40px;
 }
 
 .analytics .card-head span{
@@ -480,433 +483,51 @@ main {
     color: var(--text-grey);
 }
 
-.analytics .card .tarefas-number{
-    display: flex;
-    gap: 15px;
-    color: #f5f5f5;
-    margin-left: 15px;
-}
 
-.analytics .card .tarefas-number h3{
-    font-size: 12px;
-    margin-top: 10px;
-    color: #666;
-    font-weight: 400;
-}
-
-.analytics .childress{
-    display: flex;
-    margin-right: 10px;
-}
-
-.analytics .childress-card-one{
-   display: block;
-   width: 80px;
-   height: 100px;
-   background-color: rgba(188, 241, 37, 1);
-   border: none;
-   border-radius: 10%;
-   align-items: center;
-   gap: 10px; 
-   margin-top: 40px;
-   margin-left: 15px;
-}
-
-.analytics .card .childress-card-one i{
-    color: #050505;
-    align-items: center;
-    margin-left: 30px;
-    margin-top: 10px;
-}
-
-.analytics .card .childress-card-one h1{
-    color: #050505;
-   margin-top: 10px;
-   margin-left: 30px;
-}
-
-.analytics .card .childress-card-one >h3{
-    font-size: 12px;
-    margin-top: 10px;
-    margin-left: 15px;
-}
-
-.analytics .childress-card-twu{
-    display: block;
-    width: 80px;
-    height: 100px;
-    background-color: #36BCBA;
+.btn-default{
     border: none;
-    border-radius: 10%;
+    display: flex;
     align-items: center;
-    gap: 10px; 
-    margin-top: 40px;
+    justify-content: center;
     margin-left: 15px;
- }
- 
- .analytics .card .childress-card-twu i{
-     color: #050505;
-     align-items: center;
-     margin-left: 30px;
-     margin-top: 10px;
- }
- 
- .analytics .card .childress-card-twu h1{
-     color: #050505;
-    margin-top: 10px;
-    margin-left: 30px;
- }
- 
- .analytics .card .childress-card-twu >h3{
-     font-size: 12px;
-     margin-top: 10px;
-     margin-left: 15px;
- }
-
- .analytics .childress-card-tree{
-    display: block;
-    width: 80px;
-    height: 100px;
-    background-color: #F6063A;
-    border: none;
-    border-radius: 10%;
-    align-items: center;
-    gap: 10px; 
-    margin-top: 40px;
-    margin-left: 15px;
- }
- 
- .analytics .card .childress-card-tree i{
-     color: #050505;
-     align-items: center;
-     margin-left: 30px;
-     margin-top: 10px;
- }
- 
- .analytics .card .childress-card-tree h1{
-     color: #050505;
-    margin-top: 10px;
-    margin-left: 30px;
- }
- 
- .analytics .card .childress-card-tree >h3{
-     font-size: 12px;
-     margin-top: 10px;
-     margin-left: 15px;
- }
-
- .analytics .card-twu{
-    background-color: #434343;
-    border: 1px solid #565454;
-    border-radius: 5%;
- }
-
-.analytics .card-twu h1{
-    font-size: 18px;
-    color: #f5f5f5;
-    margin-left: 15px;
- }
-
-.analytics .card-twu .childress{
-    display: flex;
-   margin-left: 20px;
-    margin-bottom: 40px;
-}
-
-.analytics .card-twu .childress-card-one{
-   display: block;
-  background-color: #434343;
-   width: 60px;
-   height: 65px;
-   border: 1px solid #E9edf2;
-   border-radius: 10%;
-   align-items: center;
-   gap: 10px; 
-   margin-top: 40px;
-   margin-left: 15px;
-}
-
-.analytics .card-twu .childress-card-one h1{
-    color: #b0b0b0;
-    font-size: 12px;
-   margin-top: 10px;
-   margin-left: 15px;
-}
-
-.analytics .card-twu .childress-card-one >h3{
-    color: #b0b0b0;
-    font-size: 20px;
-   margin-top: 10px;
-   margin-left: 20px;
-}
-
-.analytics .card-twu .childress-card-twu{
-    display: block;
-    width: 60px;
-    height: 65px;
-    background-color: rgba(188, 241, 37, 1);
-    border: none;
-    border-radius: 10%;
-    align-items: center;
-    gap: 10px; 
-    margin-top: 40px;
-    margin-left: 15px;
- }
- 
-.analytics .card-twu .childress-card-twu h1{
-    color: #b0b0b0;
-    font-size: 14px;
-   margin-top: 10px;
-   margin-left: 15px;
- }
- 
- .analytics .card-twu .childress-card-twu h3{
-    color: #050505;
-    font-size: 20px;
-   margin-top: 10px;
-   margin-left: 20px;
- }
-
- .analytics .card-twu .childress-card-tree{
-    display: block;
-    background-color: #434343;
-     width: 60px;
-     height: 65px;
-     border: 1px solid #E9edf2;
-     border-radius: 10%;
-     align-items: center;
-     gap: 10px; 
-     margin-top: 40px;
-     margin-left: 15px;
- }
- 
- .analytics .card-twu .childress-card-tree h1{
-    color: #b0b0b0;
-    font-size: 12px;
-   margin-top: 10px;
-   margin-left: 15px;
- }
- 
- .analytics .card-twu .childress-card-tree >h3{
-    color: #b0b0b0;
-    font-size: 20px;
-   margin-top: 10px;
-   margin-left: 20px;
- }
-
- .analytics .card-twu .number-card-twu{
-    display: flex;
-
- }
-
- .analytics .card-twu .number-card-twu h1{
-    font-size: 30px;
-    color: #f5f5f5;
-    margin-left: 40px;
- }
-
- .analytics .card-twu .number-card-twu-2 h2, h3{
-    color: #f5f5f5;
-    font-size: 10px;
-    margin-top: 3px;
- }
-
-
-
-.card-progress small {
-    color: #fefcfc;
-    font-size: .8rem;
+    margin-top: 120px;
+    background-color: #E9edf2;
+    border-radius: 12px;
+    padding: 5px 70px;
     font-weight: 600;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition:.3s ease;
+
 }
 
-.card-indicator {
-    margin: .7rem 0rem;
-    height: 10px;
-    border-radius: 4px;
-    background: #e9edf2;
-    overflow: hidden;
-}
-
-.indicator {
-    height: 10px;
-    border-radius: 4px;
-}
-
-.indicator.one {
-    background: #22baa0;
-}
-
-
-
-.indicator.three {
-    background: #f6d433;
+.btn-default:hover{
+    background-color: var(--main-color);
 }
 
 
 
 
 
-.analytics .babys{
-    display: flex;
-    justify-content:space-between;
-    margin-top: 40px;
 
-}
 
-.analytics .babys h2{
-    font-size: 15px;
-}
 
-.analytics .babys-twu{
-    display: flex;
-    justify-content:space-between;
-    
 
-}
 
-.analytics .babys-twu h2{
-    font-size: 15px;
-}
 
-.analytics .babys-twu i{
-    color: #666;
-}
 
-.records {
-    box-shadow: 0px 5px 5px -5px rgb(0 0 0 / 10%);
-    background: #fff;
-    border-radius: 3px;
-}
 
-.record-header {
-    padding: 1rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
-.add, .browse {
-    display: flex;
-    align-items: center;
-}
 
-.add span {
-    display: inline-block;
-    margin-right: .6rem;
-    font-size: .9rem;
-    color: #666;
-}
 
-input, button, select {
-    outline: none;
-}
 
-.add select, .browse input, .browse select {
-    height: 35px;
-    border: 1px solid #b0b0b0;
-    border-radius: 3px;
-    display: inline-block;
-    width: 75px;
-    padding: 0rem .5rem;
-    margin-right: .8rem;
-    color: #666;
-}
 
-.add button {
-    background: var(--main-color);
-    color: #fff;
-    height: 37px;
-    border-radius: 4px;
-    padding: 0rem 1rem;
-    border: none;
-    font-weight: 600;
-}
 
-.browse input {
-    width: 150px;
-}
 
-.browse select {
-    width: 100px;
-}
 
-.table-responsive {
-    width: 100%;
-    overflow: auto;
-}
 
-table {
-    border-collapse: collapse;
-}
 
-table thead tr {
-    background: #e9edf2;
-}
 
-table thead th {
-    padding: 1rem 0rem;
-    text-align: left;
-    color: #444;
-    font-size: .9rem;
-}
-
-table thead th:first-child {
-    padding-left: 1rem;
-}
-
-table tbody td {
-    padding: 1rem 0rem;
-    color: #444;
-}
-
-table tbody td:first-child {
-    padding-left: 1rem;
-    color: var(--main-color);
-    font-weight: 600;
-    font-size: .9rem;
-}
-
-table tbody tr {
-    border-bottom: 1px solid #dee2e8;
-}
-
-.client {
-    display: flex;
-    align-items: center;
-}
-
-.client-img {
-    margin-right: .5rem;
-    border: 2px solid #b0b0b0;
-    height: 45px;
-    width: 45px;
-}
-
-.client-info h4 {
-    color: #555;
-    font-size: .95rem;
-}
-
-.client-info small {
-    color: #777;
-}
-
-.actions span {
-    display: inline-block;
-    font-size: 1.5rem;
-    margin-right: .5rem;
-}
-
-.paid {
-    display: inline-block;
-    text-align: center;
-    font-weight: 600;
-    color: var(--main-color);
-    background: #e5f8ed;
-    padding: .5rem 1rem;
-    border-radius: 20px;
-    font-size: .8rem;
-}
 
 @media only screen and (max-width: 1200px) {
     .analytics {
